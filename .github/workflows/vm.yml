@@ -31,4 +31,4 @@ jobs:
         env: 
           token_file: ${{ secrets.GCLOUD_TOKEN }}
         run: |
-          ./run.sh token_file
+          ./run.sh $token_file
